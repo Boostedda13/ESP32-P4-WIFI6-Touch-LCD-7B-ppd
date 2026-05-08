@@ -95,6 +95,7 @@ static void send_message() {
 
 void app_main(void)
 {
+    /*
 	//zero-initialize the config structure.
     gpio_config_t io_conf = {};
     //disable interrupt
@@ -108,8 +109,9 @@ void app_main(void)
     //disable pull-up mode
     io_conf.pull_up_en = 0;
     //configure GPIO with the given settings
-    gpio_config(&io_conf);
-	
+    // gpio_config(&io_conf);
+	*/
+    
 	// ESP_ERROR_CHECK(i2c_master_init());
     // int ret;
     // uint8_t write_buf = 0x01;
